@@ -4,4 +4,5 @@ import FirstTask from './firstTask';
 Logger.log('TypeScript works!!!');
 
 const firstTask = new FirstTask('Ivan');
-firstTask.sayHello();
+const helloMsg = firstTask.sayHello();
+console.log(helloMsg);
